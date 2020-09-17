@@ -46,6 +46,15 @@ ul {
 nav ul li {
 	display: inline-block;
 	margin-right: 30px;
+	border-bottom: 1px solid transparent;
+}
+
+ul li:hover {
+	border-bottom: 1px solid #337ae2;
+}
+
+ul li:hover>a {
+	color: #337ae2;
 }
 
 ul a {
